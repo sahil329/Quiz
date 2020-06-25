@@ -1,0 +1,42 @@
+		body{
+			padding-left: 0;
+			margin:0;
+			font-size: 70px;
+			background-color:rgba(0,0,0,0.1);
+		}
+		#login,#signup{
+			display: block;
+			margin-left: 12%; 
+			margin-top: 15%; 
+			padding: 2%;
+			border:2px solid black;
+			border-top-left-radius: 25%; 
+			border-bottom-right-radius: 25%; 
+			width:700px;
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(252,193,40,0.8)); 
+		}
+		form input{
+			height: 50px;
+			width:300px;
+			font-size: 60%;
+			border:2px solid black;
+			border-radius:10px;
+			background-color: unset;
+		}
+		.btn{
+			height: 60px;
+			margin-left: 60%;
+			font-size: 70%;
+		}
+		h2{
+			text-align: center;
+			color:blue;
+		}
+		.switch{
+			margin-top: 2px;
+			vertical-align: middle;
+			font-size: 50%;
+		}
+		#signup{
+			display: none;
+		}
